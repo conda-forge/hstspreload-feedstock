@@ -1,5 +1,5 @@
 {% set name = "hstspreload" %}
-{% set version = "2020.2.21" %}
+{% set version = "2020.2.25" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6759706864a830ad46cecb8485bec68a32dd8b2a2a389572634a2765cc6e2334
+  sha256: a1ba0c2730593a1922f93cd9c66ff620248090656102bf31e4559c01d7935e05
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -30,7 +30,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Chromium HSTS Preload list as a Python package and updated daily.'
+  summary: Chromium HSTS Preload list as a Python package and updated daily.
   doc_url: https://hstspreload.org/
 
 extra:
