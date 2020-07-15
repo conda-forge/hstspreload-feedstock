@@ -1,6 +1,7 @@
 {% set name = "hstspreload" %}
 {% set version = "2020.7.15" %}
 
+
 package:
   name: {{ name|lower }}
   version: {{ version }}
