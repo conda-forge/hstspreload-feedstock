@@ -5,11 +5,11 @@ Home: https://hstspreload.org/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hstspreload-feedstock/blob/master/LICENSE.txt)
 
 Summary: Chromium HSTS Preload list as a Python package and updated daily.
 
-
+Documentation: https://hstspreload.org/
 
 Current build status
 ====================
