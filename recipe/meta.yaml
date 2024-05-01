@@ -1,5 +1,5 @@
 {% set name = "hstspreload" %}
-{% set version = "2024.4.1" %}
+{% set version = "2024.5.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d379d0593f4b8819bd42e758c697f43a95a8202f8f5412bd8db820b37cdf96ac
+  sha256: b16c79acc0bd1dc345e4e70c975591ff1ad8ebda3da4356af571b86810c7e0dd
 
 build:
   noarch: python
